@@ -59,3 +59,7 @@ return
 
 ;Alt 4 to End
 !4::Send {End}
+
+;My keyboard doesn't have Vol down/Vol up
+ScrollLock::SoundSet, -5  ; Decrease volume by 5%
+Pause::SoundSet, +5       ; Increase volume by 5%
